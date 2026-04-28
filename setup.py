@@ -1,0 +1,29 @@
+"""
+setup.py  —  Optional: install skin_cancer_project as a Python package.
+Usage:  pip install -e .
+"""
+from setuptools import setup, find_packages
+
+setup(
+    name="dermai-skin-cancer",
+    version="1.0.0",
+    description="AI-powered skin cancer detection using ResNet CNN",
+    packages=find_packages(exclude=["ui*", "data*", "models*"]),
+    python_requires=">=3.9",
+    install_requires=[
+        "torch>=2.1.0",
+        "torchvision>=0.16.0",
+        "numpy>=1.24.0",
+        "pandas>=2.0.0",
+        "scikit-learn>=1.3.0",
+        "Pillow>=10.0.0",
+        "opencv-python>=4.8.0",
+        "matplotlib>=3.7.0",
+        "seaborn>=0.12.0",
+        "fastapi>=0.104.0",
+        "uvicorn[standard]>=0.24.0",
+        "python-multipart>=0.0.6",
+        "pydantic>=2.4.0",
+        "tqdm>=4.65.0",
+    ],
+)

@@ -1,0 +1,8 @@
+lesion_id,image_id,dx,dx_type,age,sex,localization
+HAM_0000118,ISIC_0027419,bkl,histo,80.0,male,scalp
+HAM_0000118,ISIC_0025030,bkl,histo,80.0,male,scalp
+HAM_0002730,ISIC_0026769,bkl,histo,80.0,male,scalp
+# ─────────────────────────────────────────────────────────────────────
+# PLACEHOLDER ONLY — replace with the real HAM10000_metadata.csv
+# Download from: https://www.kaggle.com/datasets/kmader/skin-lesion-analysis-toward-melanoma-detection
+# ─────────────────────────────────────────────────────────────────────

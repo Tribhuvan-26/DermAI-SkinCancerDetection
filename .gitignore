@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+
+# Model weights (large files)
+models/*.pth
+models/checkpoints/
+!models/.gitkeep
+
+# Data (large dataset — download separately)
+data/raw/images/
+data/raw/HAM10000_metadata.csv
+data/processed/
+!data/raw/.gitkeep
+!data/raw/images/.gitkeep
+
+# Output artifacts
+models/training_curves.png
+models/confusion_matrix.png
+models/roc_curves.png
+models/per_class_accuracy.png
+models/history.json
+models/eval_metrics.json
+*.png
+inference_result.png
+
+# React
+ui/node_modules/
+ui/dist/
+ui/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
