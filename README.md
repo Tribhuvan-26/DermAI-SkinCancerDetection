@@ -1,4 +1,4 @@
-# 🔬 DermAI — Skin Cancer Detection with ResNet CNN
+# DermAI — Skin Cancer Detection with ResNet CNN
 
 > AI-powered multi-class skin lesion classification using PyTorch transfer learning,
 > with a production-grade React UI and FastAPI backend.
